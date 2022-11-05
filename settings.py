@@ -18,7 +18,7 @@ TELEGRAM_SUPPORT_CHAT_ID = int(TELEGRAM_SUPPORT_CHAT_ID)
 
 
 
-WELCOME_MESSAGE = os.getenv("WELCOME_MESSAGE", "Здравствуйте, чем я могу помочь?")
+WELCOME_MESSAGE = os.getenv("WELCOME_MESSAGE", "👋")
 WELCOME_TEXT  = os.getenv("WELCOME_TEXT", "Здравствуйте! Чем могу помочь?")
 REPLY_TO_THIS_MESSAGE = os.getenv("REPLY_TO_THIS_MESSAGE", "REPLY_TO_THIS")
 WRONG_REPLY = os.getenv("WRONG_REPLY", "WRONG_REPLY")
